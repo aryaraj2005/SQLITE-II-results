@@ -1,0 +1,41 @@
+1|aman| singh|15|aman@gmail.com|904638374|varanasi
+2|rohan| kumar|19|rohan@gmail.com|6487447|rajasthan
+3|sohan| yadav|18|sohan@gmail.com|783684|bom
+4|abc| jat|36|abc@gmail.com|8379273|guj
+5|xyz| singh|34|xyz@gmail.com|6352627|rajasthan
+1|1|A|10-5-2001|3
+2|2|B|09-5-2006|1
+3|3|C|24-5-2012|5
+4|5|D|11-5-2024|2
+5|2|E|23-5-1998|2
+1|mac| singh|35|mac@gmail.com|638374|hyderabad|2
+2|max| jat|59|max@gmail.com|7447|knw|3
+3|john|singh |88|john@gmail.com|684|hyderabad|1
+4|sujan| jat|46|sujan@gmail.com|9273|gujearat|5
+5|jordan|yadav|14|jordan@gmail.com|52627|hyderabad|2
+-----------@@@list all the emplo id along with aloted projects-?????-------
+1|aman|1|A
+2|rohan|2|B
+3|sohan|3|C
+5|xyz|4|D
+2|rohan|5|E
+---@@ without using inner join--------@@@list all the emplo id along with aloted projects-?????-------
+1|aman|1|A
+2|rohan|2|B
+3|sohan|3|C
+5|xyz|4|D
+2|rohan|5|E
+Q@@@-----all the emplo id and thier contact who are working in rajasthan
+      and client name wirking in hyderabad ????-----
+rohan@gmail.com|6487447|rohan|mac|1
+rohan@gmail.com|6487447|rohan|jordan|5
+-@@@@ fetch out all the project allocated to the employees
+     @solve via using left join------
+1|aman| singh|15|aman@gmail.com|904638374|varanasi|1|1|A|10-5-2001|3
+2|rohan| kumar|19|rohan@gmail.com|6487447|rajasthan|2|2|B|09-5-2006|1
+2|rohan| kumar|19|rohan@gmail.com|6487447|rajasthan|5|2|E|23-5-1998|2
+3|sohan| yadav|18|sohan@gmail.com|783684|bom|3|3|C|24-5-2012|5
+4|abc| jat|36|abc@gmail.com|8379273|guj|||||
+5|xyz| singh|34|xyz@gmail.com|6352627|rajasthan|4|5|D|11-5-2024|2
+
+[Execution complete with exit code 0]
